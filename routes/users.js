@@ -1,7 +1,11 @@
 const router = require("express").Router();
+const User = require("../models/User");
 
-router.get("/register", async (req, res)=>{
-  res.send("hey its user route")
-})
+// UPDATE USER 
+// DELETE A USER
+// GET A USER
+// FOLLOW A USERS
+// UNFOLLOW A USER
+
 
 module.exports = router;
